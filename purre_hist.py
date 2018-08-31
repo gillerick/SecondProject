@@ -12,3 +12,7 @@ def count_elements(sequence) -> dict:
 counted = count_elements(a)
 print(counted)
 
+# Or
+from collections import Counter
+counted = Counter(a)
+print(counted)
